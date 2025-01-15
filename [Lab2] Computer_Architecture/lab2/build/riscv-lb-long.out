@@ -1,0 +1,10 @@
+WARNING: ../riscvlong/riscvlong-sim.v:154: $readmemh: Standard inconsistency, following 1364-2005.
+VCD info: dumpfile ../tests/build/vmh/riscv-lb.vcd opened for output.
+*** PASSED ***
+--------------------------------------------
+ STATS                                      
+--------------------------------------------
+ status     =          1
+ num_cycles =        268
+ num_inst   =        262
+ ipc        = 0.977612

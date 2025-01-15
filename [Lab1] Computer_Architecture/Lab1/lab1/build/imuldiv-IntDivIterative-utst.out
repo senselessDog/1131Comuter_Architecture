@@ -1,0 +1,8 @@
+VCD info: dumpfile imuldiv-IntDivIterative.vcd opened for output.
+
+ Entering Test Suite: imuldiv-IntDivIterative
+  + Running Test Case: div/rem
+     [ passed ] Test ( Is sink finished? ) succeeded 
+  + Running Test Case: divu/remu
+     [ passed ] Test ( Is sink finished? ) succeeded 
+

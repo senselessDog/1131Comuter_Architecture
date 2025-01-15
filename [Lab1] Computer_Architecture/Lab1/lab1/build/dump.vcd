@@ -1,0 +1,162 @@
+$date
+	Fri Oct  4 23:48:54 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module imuldiv_MulDivReqMsgFromBits $end
+$var wire 67 ! bits [66:0] $end
+$var wire 3 " func [2:0] $end
+$var wire 32 # b [31:0] $end
+$var wire 32 $ a [31:0] $end
+$upscope $end
+$scope module imuldiv_MulDivReqMsgToBits $end
+$var wire 32 % a [31:0] $end
+$var wire 32 & b [31:0] $end
+$var wire 3 ' func [2:0] $end
+$var wire 67 ( bits [66:0] $end
+$upscope $end
+$scope module imuldiv_MulDivReqMsgToStr $end
+$var wire 67 ) msg [66:0] $end
+$var wire 3 * func [2:0] $end
+$var wire 32 + b [31:0] $end
+$var wire 32 , a [31:0] $end
+$var reg 160 - full_str [159:0] $end
+$var reg 16 . tiny_str [15:0] $end
+$upscope $end
+$scope module sim $end
+$var wire 1 / muldivreq_go $end
+$var wire 1 0 muldivresp_go $end
+$var wire 1 1 sink_rdy $end
+$var wire 1 2 src_rdy $end
+$var wire 1 3 sink_val $end
+$var wire 32 4 sink_msg [31:0] $end
+$var reg 1 5 busy $end
+$var reg 1 6 clk $end
+$var reg 32 7 cycle_count [31:0] $end
+$var reg 1024 8 op_type [1023:0] $end
+$var reg 1 9 reset $end
+$var reg 32 : src_msg_a [31:0] $end
+$var reg 32 ; src_msg_b [31:0] $end
+$var reg 3 < src_msg_fn [2:0] $end
+$var reg 1 = src_val $end
+$scope module imuldiv $end
+$var wire 1 6 clk $end
+$var wire 1 > is_result_signed_divmul $end
+$var wire 1 ? is_result_signed_rem $end
+$var wire 32 @ muldivreq_msg_a [31:0] $end
+$var wire 32 A muldivreq_msg_b [31:0] $end
+$var wire 3 B muldivreq_msg_fn [2:0] $end
+$var wire 1 2 muldivreq_rdy $end
+$var wire 1 = muldivreq_val $end
+$var wire 1 1 muldivresp_rdy $end
+$var wire 1 9 reset $end
+$var wire 32 C unsigned_result [31:0] $end
+$var wire 32 D unsigned_b [31:0] $end
+$var wire 32 E unsigned_a [31:0] $end
+$var wire 1 F sign_bit_b $end
+$var wire 1 G sign_bit_a $end
+$var wire 1 3 muldivresp_val $end
+$var wire 32 H muldivresp_msg_result [31:0] $end
+$var wire 1 I is_result_signed $end
+$var reg 64 J a_reg [63:0] $end
+$var reg 32 K b_reg [31:0] $end
+$var reg 3 L fn_reg [2:0] $end
+$var reg 1 3 val_reg $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx L
+bx K
+bx J
+xI
+bx H
+xG
+xF
+bx E
+bx D
+bx C
+bx B
+bx A
+bx @
+x?
+x>
+0=
+bx <
+bx ;
+bx :
+19
+bx 8
+b0 7
+06
+05
+bx 4
+x3
+12
+11
+x0
+0/
+b11111100111111 .
+b111010101101110011001000110010101100110011010010110111001100101011001000010000001100110011101010110111001100011 -
+bz ,
+bz +
+bz *
+bz )
+bz (
+bz '
+bz &
+bz %
+bz $
+bz #
+bz "
+bz !
+$end
+#5
+00
+03
+b0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx J
+16
+#10
+1/
+06
+1=
+b1001 ;
+b1001 A
+b11111110 :
+b11111110 @
+b0 <
+b0 B
+b11011010111010101101100 8
+09
+#15
+b100011101110 4
+b100011101110 H
+b100011101110 C
+0I
+0>
+b11111110 E
+0/
+10
+0F
+b1001 D
+0?
+0G
+b1 7
+0=
+15
+13
+b1001 K
+b11111110 J
+b0 L
+16
+#20
+06
+#25
+00
+03
+16

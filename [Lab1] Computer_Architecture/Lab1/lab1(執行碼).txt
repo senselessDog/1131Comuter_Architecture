@@ -1,0 +1,27 @@
+cd /mnt/g/我的雲端硬碟/交通大學/1131課程/計算機架構/LAB/Lab1/lab1
+% tar -xf lab1.tar
+% cd lab1
+% export LAB1_ROOT=$PWD
+
+% cd $LAB1_ROOT/build
+% make
+
+% # ./imuldiv-singcyc-sim +op=TYPE +a=OPERAND_A +b=OPERAND_B
+% # where OPERAND is the hexadecimal representation of the input value
+% ./imuldiv-singcyc-sim +op=mul +a=fe +b=9
+% ./imuldiv-iterative-sim +op=mul +a=fe +b=9
+% ./imuldiv-iterative-sim +op=div +a=fe +b=9
+
+
+% cd $LAB1_ROOT /build
+% make check
+
+2.3 Viewing Waveforms
+% cd $LAB1_ROOT/build
+% gtkwave imuldiv-IntMulDivSingleCycle.vcd &
+% gtkwave imuldiv-IntMulIterative.vcd &
+gtkwave imuldiv-IntDivIterative.vcd &
+
+vim imuldiv-IntMulIterative.v
+vim imuldiv-IntDivIterative.v
+vim ../imuldiv/imuldiv-IntDivIterative.v

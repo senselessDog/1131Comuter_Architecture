@@ -1,0 +1,42 @@
+cd /mnt/g/我的雲端硬碟/交通大學/1131課程/計算機架構/LAB/Lab2/lab2
+
+2-1
+% tar -xf lab2.tar
+% cd lab2
+% export LAB2_ROOT=$PWD
+
+2-2
+% cd $LAB2_ROOT/tests
+% mkdir build && cd build
+% ../configure --host=riscv32-unknown-elf
+% make
+% ../convert
+
+
+% cd $LAB2_ROOT/build
+% make
+% make check
+% make check-asm-riscvstall
+% make check-asm-rand-riscvstall
+% make check-asm-riscvbyp
+% make check-asm-rand-riscvbyp
+% make check-asm-riscvlong
+% make check-asm-rand-riscvlong
+
+% cd $LAB2_ROOT /build
+% ./riscvstall-sim +exe=../tests/build/vmh/riscv-addi.vmh +stats=1
+
+3-1
+cd $LAB2_ROOT/tests/build
+make
+../convert
+
+cd $LAB2_ROOT/build
+make check-asm-riscvstall
+
+optinal:
+./riscvstall-sim +exe=../tests/build/vmh/riscv-addi.vmh +stats=1
+3-2
+% cd $LAB2_ROOT/riscvbyp
+% cp ../riscvstall/* .
+% for file in *; do mv $file ${file/riscvstall/riscvbyp}; done

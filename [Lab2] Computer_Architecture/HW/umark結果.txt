@@ -1,0 +1,132 @@
+WARNING: ../riscvstall/riscvstall-sim.v:154: $readmemh: Standard inconsistency, following 1364-2005.
+VCD info: dumpfile ../ubmark/build/vmh/ubmark-bin-search.vcd opened for output.
+*** PASSED ***
+--------------------------------------------
+ STATS                                      
+--------------------------------------------
+ status     =          1
+ num_cycles =       3096
+ num_inst   =       1030
+ ipc        = 0.332687
+
+WARNING: ../riscvbyp/riscvbyp-sim.v:154: $readmemh: Standard inconsistency, following 1364-2005.
+VCD info: dumpfile ../ubmark/build/vmh/ubmark-bin-search.vcd opened for output.
+*** PASSED ***
+--------------------------------------------
+ STATS                                      
+--------------------------------------------
+ status     =          1
+ num_cycles =       1415
+ num_inst   =       1030
+ ipc        = 0.727915
+
+WARNING: ../riscvlong/riscvlong-sim.v:154: $readmemh: Standard inconsistency, following 1364-2005.
+VCD info: dumpfile ../ubmark/build/vmh/ubmark-bin-search.vcd opened for output.
+*** PASSED ***
+--------------------------------------------
+ STATS                                      
+--------------------------------------------
+ status     =          1
+ num_cycles =       1415
+ num_inst   =       1030
+ ipc        = 0.727915
+
+WARNING: ../riscvstall/riscvstall-sim.v:154: $readmemh: Standard inconsistency, following 1364-2005.
+VCD info: dumpfile ../ubmark/build/vmh/ubmark-cmplx-mult.vcd opened for output.
+*** PASSED ***
+--------------------------------------------
+ STATS                                      
+--------------------------------------------
+ status     =          1
+ num_cycles =      16846
+ num_inst   =       1873
+ ipc        = 0.111184
+
+WARNING: ../riscvbyp/riscvbyp-sim.v:154: $readmemh: Standard inconsistency, following 1364-2005.
+VCD info: dumpfile ../ubmark/build/vmh/ubmark-cmplx-mult.vcd opened for output.
+*** PASSED ***
+--------------------------------------------
+ STATS                                      
+--------------------------------------------
+ status     =          1
+ num_cycles =      15325
+ num_inst   =       1873
+ ipc        = 0.122219
+
+WARNING: ../riscvlong/riscvlong-sim.v:154: $readmemh: Standard inconsistency, following 1364-2005.
+VCD info: dumpfile ../ubmark/build/vmh/ubmark-cmplx-mult.vcd opened for output.
+*** PASSED ***
+--------------------------------------------
+ STATS                                      
+--------------------------------------------
+ status     =          1
+ num_cycles =       2550
+ num_inst   =       1873
+ ipc        = 0.734510
+
+WARNING: ../riscvstall/riscvstall-sim.v:154: $readmemh: Standard inconsistency, following 1364-2005.
+VCD info: dumpfile ../ubmark/build/vmh/ubmark-masked-filter.vcd opened for output.
+*** PASSED ***
+--------------------------------------------
+ STATS                                      
+--------------------------------------------
+ status     =          1
+ num_cycles =      16271
+ num_inst   =       4764
+ ipc        = 0.292791
+
+WARNING: ../riscvbyp/riscvbyp-sim.v:154: $readmemh: Standard inconsistency, following 1364-2005.
+VCD info: dumpfile ../ubmark/build/vmh/ubmark-masked-filter.vcd opened for output.
+*** PASSED ***
+--------------------------------------------
+ STATS                                      
+--------------------------------------------
+ status     =          1
+ num_cycles =      14015
+ num_inst   =       4764
+ ipc        = 0.339922
+
+WARNING: ../riscvlong/riscvlong-sim.v:154: $readmemh: Standard inconsistency, following 1364-2005.
+VCD info: dumpfile ../ubmark/build/vmh/ubmark-masked-filter.vcd opened for output.
+*** PASSED ***
+--------------------------------------------
+ STATS                                      
+--------------------------------------------
+ status     =          1
+ num_cycles =       6389
+ num_inst   =       4764
+ ipc        = 0.745657
+
+WARNING: ../riscvstall/riscvstall-sim.v:154: $readmemh: Standard inconsistency, following 1364-2005.
+VCD info: dumpfile ../ubmark/build/vmh/ubmark-vvadd.vcd opened for output.
+*** PASSED ***
+--------------------------------------------
+ STATS                                      
+--------------------------------------------
+ status     =          1
+ num_cycles =        570
+ num_inst   =        453
+ ipc        = 0.794737
+
+WARNING: ../riscvbyp/riscvbyp-sim.v:154: $readmemh: Standard inconsistency, following 1364-2005.
+VCD info: dumpfile ../ubmark/build/vmh/ubmark-vvadd.vcd opened for output.
+*** PASSED ***
+--------------------------------------------
+ STATS                                      
+--------------------------------------------
+ status     =          1
+ num_cycles =        471
+ num_inst   =        453
+ ipc        = 0.961783
+
+WARNING: ../riscvlong/riscvlong-sim.v:154: $readmemh: Standard inconsistency, following 1364-2005.
+VCD info: dumpfile ../ubmark/build/vmh/ubmark-vvadd.vcd opened for output.
+*** PASSED ***
+--------------------------------------------
+ STATS                                      
+--------------------------------------------
+ status     =          1
+ num_cycles =        471
+ num_inst   =        453
+ ipc        = 0.961783
+

@@ -1,0 +1,10 @@
+WARNING: ../riscvlong/riscvlong-randdelay-sim.v:154: $readmemh: Standard inconsistency, following 1364-2005.
+VCD info: dumpfile ../tests/build/vmh/riscv-addi-rand.vcd opened for output.
+*** PASSED ***
+--------------------------------------------
+ STATS                                      
+--------------------------------------------
+ status     =          1
+ num_cycles =        317
+ num_inst   =        126
+ ipc        = 0.397476
