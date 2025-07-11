@@ -1,5 +1,5 @@
-# 1131Comuter_Architecture
-This is the record for the 1131 course of Comuter_Architecture. I spend great effort to build it. This project help me to improve my verilog knowledge.
+# 1131 NYCU Comuter_Architecture
+This is the record for the 1131 course of Comuter_Architecture in NYCU. I spend great effort to build it. This project help me to improve my verilog knowledge.
 ## Introduce 5 labs
 1. Integer Multiply/Divide Unit
 2. 5 stage/ 7 stage-pipeline
